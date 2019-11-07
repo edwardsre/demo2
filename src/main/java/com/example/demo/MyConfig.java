@@ -6,9 +6,8 @@ import io.micrometer.statsd.StatsdMeterRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
-@Configuration
+//@Configuration
 public class MyConfig {
 
   public static final Logger logger = LoggerFactory.getLogger("micrometer-metrics");
